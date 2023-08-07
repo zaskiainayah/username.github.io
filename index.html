@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Zaskia's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zaskia's Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Zaskia's Portfolio</h1>
-    <p>Welcome to my portfolio website!</p>
-  </header>
-  
-  <section class="about">
-    <h2>About Me</h2>
-    <p>Halo! Saya Zaskia Ayu Inayah, siswi di SMK Negeri 6 Surakarta, jurusan Rekayasa Perangkat Lunak. Saya mempunyai minat dan bakat dalam bidang teknologi, khususnya dalam pengembangan perangkat lunak.</p>
-  </section>
-  
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>Saya ikut serta sebagai Front-End dalam pengembangan mini project web movie. </p>
-    </div>
-    <div class="project">
-      <h3>Project 2</h3>
-      <p>This is a description of my second project.</p>
-    </div>
-    <!-- Add more projects as needed -->
-  </section>
-  
-  <footer>
-    <p>Contact me at: zaskia@example.com</p>
-  </footer>
+    <header>
+        <nav>
+            <div class="logo">Zaskia</div>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hello, I'm Zaskia</h1>
+            <p>Welcome to my portfolio. I craft digital experiences.</p>
+        </div>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <div class="project-info">
+                <h3>Project 1</h3>
+                <p>Description of Project 1 goes here.</p>
+            </div>
+        </div>
+        <!-- Add more project cards here -->
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Zaskia">
+            </div>
+            <div class="bio">
+                <h3>Hi, I'm Zaskia</h3>
+                <p>I'm a passionate web developer with a love for design and user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Feel free to get in touch with me:</p>
+        <div class="contact-links">
+            <a href="mailto:zaskia@example.com">Email</a>
+            <a href="https://www.linkedin.com/in/zaskia">LinkedIn</a>
+            <a href="https://github.com/zaskia">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Zaskia. All rights reserved.</p>
+    </footer>
 </body>
 </html>
 
