@@ -1,73 +1,35 @@
-/* Reset some default styles */
-body, h1, h2, p {
+body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/* Global Styles */
 body {
   font-family: Arial, sans-serif;
 }
 
 header {
-  background-color: #222;
-  color: #fff;
-  padding: 10px 0;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 2rem 0;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+.about, .projects {
+  padding: 2rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-  margin: 0 20px;
-  font-weight: bold;
+.projects {
+  background-color: #f9f9f9;
 }
 
-/* Sections */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px;
-}
-
-#about {
-  background-color: #f4f4f4;
-}
-
-#projects {
-  background-color: #eee;
-}
-
-#contact {
-  background-color: #f4f4f4;
-}
-
-/* Projects */
 .project {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
 }
 
-.project img {
-  max-width: 100%;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  nav a {
-    margin: 10px 0;
-  }
-  
-  .container {
-    padding: 20px;
-  }
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
 }
