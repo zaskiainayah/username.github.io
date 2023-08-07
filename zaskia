@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portofolio Zaskia</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Zaskia's Portfolio</title>
 </head>
 <body>
   <header>
-    <h1>Zaskia</h1>
-    <p>Web Designer & Front-end Developer</p>
+    <h1>Zaskia's Portfolio</h1>
+    <p>Welcome to my portfolio website!</p>
   </header>
-
+  
   <section class="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Zaskia, a passionate web designer and front-end developer. I love creating beautiful and user-friendly websites that leave a lasting impression.</p>
+    <p>I am a passionate content creator who loves to explore various topics and share my insights with the world.</p>
   </section>
-
+  
   <section class="projects">
     <h2>Projects</h2>
     <div class="project">
-      <img src="project1.jpg" alt="Project 1">
       <h3>Project 1</h3>
-      <p>A responsive website for a local business.</p>
+      <p>This is a description of my first project.</p>
     </div>
     <div class="project">
-      <img src="project2.jpg" alt="Project 2">
       <h3>Project 2</h3>
-      <p>An e-commerce site with a modern and sleek design.</p>
+      <p>This is a description of my second project.</p>
     </div>
+    <!-- Add more projects as needed -->
   </section>
-
+  
   <footer>
-    <p>Contact me at zaskia@example.com</p>
+    <p>Contact me at: zaskia@example.com</p>
   </footer>
 </body>
 </html>
+
 
 /* Reset some default styles */
 body, h1, h2, h3, p {
@@ -43,38 +43,28 @@ body, h1, h2, h3, p {
   padding: 0;
 }
 
-/* Global styles */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
 }
 
 header {
+  background-color: #f2f2f2;
   text-align: center;
-  background-color: #333;
-  color: #fff;
   padding: 2rem 0;
-}
-
-header h1 {
-  font-size: 2.5rem;
 }
 
 .about, .projects {
   padding: 2rem;
 }
 
-.about h2, .projects h2 {
-  font-size: 2rem;
+.projects {
+  background-color: #f9f9f9;
+}
+
+.project {
   margin-bottom: 1rem;
-}
-
-.projects .project {
-  margin-bottom: 2rem;
-}
-
-.projects img {
-  max-width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
 }
 
 footer {
@@ -83,3 +73,5 @@ footer {
   background-color: #333;
   color: #fff;
 }
+
+/* Add more styling as needed */
